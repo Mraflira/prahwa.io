@@ -1,0 +1,142 @@
+.our-resources-section{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: max-content;
+}
+.our-resources-heading{
+    position: relative;
+    width: 100%;
+}
+.heading-name{
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    transform: translateX(-50%);
+    height: 43vw;
+    width: 18vw;
+}
+.navbar-home-icon {
+    position: absolute;
+    bottom: 0;
+}
+.our-resources-content{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+    align-items: center;
+}
+.border-resources{
+    width:100%;
+    border-top-left-radius: 1vw;
+    height: 54vw;
+    border-left: 0.3vw solid #3781C3;
+    border-top: 0.3vw solid #3781C3;
+    position: absolute;
+    top: -0.5%;
+    left: 0;
+}
+.our-resources-content ul{
+    padding: 1.4vw 0;
+    padding-left: 1vw;
+    position: relative;
+}
+.our-resources-content ul li{
+    margin: 1.9vw 0;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: top;
+    gap: 2.3vw;
+    margin-left: -1.5vw;
+}
+.circle-resources{
+    width: 1.3vw;
+    height: 1.3vw;
+    background: #7E67EB;
+    border-radius: 100%;
+    margin-top: 0.6vw;
+}
+.our-resources-content ul li h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 700;
+}
+.our-resources-content ul li span{
+    color: white;
+    font-size: 1.5vw;
+    font-family: futura-light;
+}
+.about-us-content{
+    border: 0.3vw solid #00A2E9;
+    border-radius: 0.8vw;
+    margin-left: -7vw;
+    margin-top: -4vw;
+    padding: 1.6vw;
+    width: 126%;
+    padding-bottom: 4vw;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    z-index: 2;
+}
+.about-heading-image{
+    position: relative;
+    width: 28vw;
+    height: 7vw;
+    margin-left: -0.7vw;
+}
+.about-us-content p{
+    color: white;
+    width: 68%;
+    margin-top: 1vw;
+    text-align: justify;
+    font-family: futura-light;
+    line-height: 1.2;
+    margin-left: 1.3vw;
+    font-size: 1.3vw;
+    text-shadow: 0 0 #ffffff;
+}
+.search-about{
+    position: absolute;
+    right: -4%;
+    bottom: -7%;
+    font-size: 11vw;
+    color: #00A2E9;
+    z-index: 3;
+}
+.history-client{
+    padding: 5vw 0;
+    z-index: 10;
+}
+.description-history{
+    width: 88%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3vw 0;
+    background: linear-gradient(93.4deg, #3781C3 40.06%, #2F0E74 106.29%);
+    border-radius: 1vw;
+}
+.history-heading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vw;
+}
+.history-icon{
+    font-size: 5vw;
+}
+.history-heading span{
+    font-size: 4vw;
+    font-weight: 700;
+}
+.history-box p{
+    font-size: 1.8vw;
+    color: white;
+}

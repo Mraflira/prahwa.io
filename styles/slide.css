@@ -1,0 +1,84 @@
+.swiper{
+    position: relative;
+    width: 88%;
+    height: 25vw;
+    z-index: 2;
+    align-items: center !important;
+}
+.box-slide{
+    background: #1a1a1a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87%;
+    height: 14vw;
+    padding: 3vw 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 2vw;
+    margin-left: 1vw;
+}
+.box-slide-icon{
+    position: relative;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin: auto;
+    margin-bottom: 1.2vw;     
+}
+.box-slide span{
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: white;
+}
+
+.slide-heading{
+    position: absolute;
+    width: 19vw;
+    height: 14.5vw;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #303030;
+    z-index: 4;
+    text-align: center;
+}
+.slide-heading-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.slide-heading h4{
+    color: white;
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.circle-divider{
+    width: 1vw;
+    height: 1vw;
+    background: #7E67EB;
+    margin: 0.3vw auto;
+    border-radius: 100%;
+}
+.slide-heading p{
+    width: 82%;
+    margin: auto;
+    color: white;
+    font-size: 1.2vw;
+    font-family: "futura-light";
+}
+
+.swiper-pagination-bullet{
+    width: 0.9vw !important;
+    height: 0.9vw !important;
+    background: #7E67EB !important;
+    transition: 0.4s all !important;
+}
+.swiper-pagination-bullet-active{
+    background: #7E67EB !important;
+    width: 3vw !important;
+    border-radius: 1vw !important;
+}

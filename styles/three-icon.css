@@ -1,0 +1,48 @@
+.three-icon{
+    width: 81%;
+    height: max-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 6.8vw;
+    padding-bottom: 8.4vw;
+    position: relative;
+}
+.icon-application{
+    position: relative;
+    width: 5.4vw;
+    height: 5.4vw;
+    margin: auto;
+}
+.three-icon-box-image{
+    position: relative;
+    width: 41%;
+    height: 5.3vw;
+    margin: auto;
+    margin-bottom: 1.3vw;
+}
+.three-icon-box span{
+    color: white;
+    font-size: 1.1vw;
+    text-shadow: 0 0 #ffffff;
+    font-family: "futura-light";
+}
+.three-icon-box h1{
+    text-transform: uppercase;
+    font-size: 2.9vw;
+    color: white;
+    font-weight: 800;
+}
+.border-three{
+    position: absolute;
+    width: 51%;
+    bottom: 0;
+    right: 0;
+    height: 30vw;
+    border-right: 0.3vw solid #3781C3;
+    border-bottom: 0.3vw solid #3781C3;
+    border-bottom-right-radius: 1vw;
+}
